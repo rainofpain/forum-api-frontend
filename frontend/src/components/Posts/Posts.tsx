@@ -1,5 +1,6 @@
-import type { Post } from "../../types/post"
-import PostCard from "../PostCard/PostCard.tsx"
+import type { Post } from "../../types/post";
+import PostCard from "../PostCard/PostCard.tsx";
+import "./Posts.css";
 
 interface PostListProps{
     posts: Post[]
@@ -15,4 +16,4 @@ function Posts({posts}: PostListProps){
     )
 }
 
-export default Posts;
+export default Posts

@@ -1,11 +1,11 @@
-import './App.css'
+import './App.css';
 import Header from '../components/Header/Header';
 import Main from '../components/Main/Main';
 
 function App() {
   return (
     <div>
-      <Header title='All Posts'></Header>
+      <Header title='Posts'></Header>
       <Main>
       </Main>
     </div>

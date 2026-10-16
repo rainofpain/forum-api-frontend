@@ -1,4 +1,5 @@
 import type { Post } from "../../types/post";
+import "./PostCard.css";
 
 interface PostCardProps{
     post : Post
@@ -6,17 +7,17 @@ interface PostCardProps{
 
 function PostCard({post}: PostCardProps){
     return (
-        <article>
-            <p>
+        <article className="post-card">
+            <p className="author">
                 Author: {post.author}
             </p>
-            <h3 >
+            <h3 className="title">
                 {post.title}
             </h3>
-            <p>
+            <p className="content">
                 {post.content}
             </p>
-            <span>
+            <span className="category">
                 #{post.category}
             </span>
         </article>
