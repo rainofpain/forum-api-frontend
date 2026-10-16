@@ -1,9 +1,15 @@
 import './App.css'
+import Header from '../components/Header/Header';
+import Main from '../components/Main/Main';
 
 function App() {
   return (
-    <div></div>
+    <div>
+      <Header title='All Posts'></Header>
+      <Main>
+      </Main>
+    </div>
   )
 }
 
-export default App
+export default App;
