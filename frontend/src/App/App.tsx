@@ -5,7 +5,8 @@ import Main from '../components/Main/Main';
 function App() {
   return (
     <div>
-      <Header title='Posts'></Header>
+      <Header title='Posts'>
+      </Header>
       <Main>
       </Main>
     </div>
